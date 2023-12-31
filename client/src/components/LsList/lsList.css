@@ -1,0 +1,90 @@
+.fileLink a{
+    text-decoration: none;
+    color : black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+h3{
+    font-weight: 400;
+    vertical-align: top;
+    margin: 0;
+    color : black;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    width: 600px;
+    overflow: scroll;
+    padding-left: 1.2%;
+}
+h3::-webkit-scrollbar {
+    display: none;
+}
+h3 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+h5 {
+    margin-top: 0.3%;
+    margin-left: 10%;
+    color : black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.fileIcon{
+    padding-left: 6%;
+    padding-right: 1.5%;
+    color: rgb(94, 94, 94);
+}
+.linkContent{
+    display: flex;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+}
+
+.linkContent a{
+    padding-left: 1.5%;
+}
+#Down{
+    
+    border: none;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    color : black;
+}
+.folderIcon{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    color: rgb(94, 94, 94);
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .linkContent a{
+        padding-left: 1.5%;
+    }
+    .folderIcon{
+        margin-top: 2%;
+    }
+    #Down{
+        padding-top: 2%;
+        padding-bottom: 7%;
+        font-size: small;
+        font-weight: 500;
+    }
+    h3{
+        font-size: small;
+        width: 125px;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+    #Down{
+        padding-bottom: 3%;
+    }
+    h3{
+        width: 400px;
+    }
+  }

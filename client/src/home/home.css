@@ -1,0 +1,33 @@
+.addressLine{
+    display: flex;
+}
+.addressLine h4{
+    padding-left: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: black;
+
+}
+.upIcon{
+    margin-top: 1.0%;
+    margin-left: 1.5%;
+    color: rgb(94,94,94);
+}
+@media screen and (max-width: 500px) {
+    .upIcon{
+        margin-top: 5%;
+        margin-right: 5%;
+        
+
+    }
+    .body{
+        display: flex;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .upIcon{
+        margin-top: 2.5%;
+        margin-right: 1%;
+    }
+}
